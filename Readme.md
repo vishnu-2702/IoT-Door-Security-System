@@ -19,9 +19,13 @@ This system functions as both a door security system and a display for temperatu
 
 # Connection Diagram
 ![Image 1](CircuitConnections/Circuit-Connection.png)
-![Image 1](CircuitConnections/Scematic-diagram.png)
+![Image 2](CircuitConnections/Scematic-diagram.png)
 
 # Result Images
 ![Image 1](Result/result(3).jpg)
 ![Image 2](Result/result(2).jpg)
 ![Image 3](Result/result(1).jpg)
+
+# Blynk Dashboard
+![Image 1](Result\ss1.png)
+![Image 2](Result\ss2.png)
