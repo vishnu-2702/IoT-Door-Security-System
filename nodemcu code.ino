@@ -33,10 +33,13 @@ void connectToWifi() {
   WiFi.begin(ssid, pass);
   lcd.clear();
   lcd.setCursor(0, 0);
+  // displaying wifi connection status
   lcd.print("Connecting...");
   Serial.print("Connecting to Wi-Fi...");
 
   int tries = 0;
+
+  // tries to connect to wifi
   while (WiFi.status() != WL_CONNECTED && tries < 10) {
     delay(1000);
     lcd.setCursor(0, 1);
@@ -46,6 +49,7 @@ void connectToWifi() {
     tries++;
   }
 
+  //checks wifi status
   if (WiFi.status() != WL_CONNECTED) {
     lcd.clear();
     lcd.setCursor(0, 0);
